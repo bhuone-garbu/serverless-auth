@@ -7,6 +7,12 @@
 
 # Serverless auth service via Auth0
 
+### 0. Install serverless framework if you haven't
+
+```sh
+npm install -g serverless
+```
+
 ### 1. Install dependencies
 
 ```sh
@@ -37,6 +43,6 @@ You can grab a test token from Auth0. Make sure to provide your token in the hea
 "Authorization": "Bearer YOUR_TOKEN"
 ```
 
-You should be good to go!
+And should be golden!!! 😎
 
-<hr/>
+To use the authorizer reference it on your existing aws lambda function or public AWS API gateway.
