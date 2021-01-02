@@ -1,17 +1,14 @@
-## Features
+# Simple serverless auth service using Auth0
 
-- Test front-end application
-- Private endpoint for testing
-- Public endpoint for testing
-- ES6-friendly
+### 0. Prerequisites
 
-# Serverless auth service via Auth0
-
-### 0. Install serverless framework if you haven't
+Install `serverless` framework if you haven't
 
 ```sh
 npm install -g serverless
 ```
+
+Create a free developer account with [Auth0](https://auth0.com/) and setup an application. (A new tenant environment if u need to)
 
 ### 1. Install dependencies
 
