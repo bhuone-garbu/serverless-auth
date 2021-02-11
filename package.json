@@ -1,7 +1,6 @@
 {
   "name": "serverless-auth",
   "version": "1.0.0",
-  "author": "Ariel Weinberger <ariel@codingly.io>",
   "description": "Demonstration of protecting API gateway endpoints with auth0",
   "license": "MIT",
   "dependencies": {
